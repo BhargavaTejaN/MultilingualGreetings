@@ -1,0 +1,25 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.button {
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #db1c48;
+  border: 2px solid #db1c48;
+}
+
+.active {
+  background-color: #db1c48;
+  color: white;
+}
